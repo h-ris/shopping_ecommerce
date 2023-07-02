@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { PRODUCTS } from "../../products";
 import { Product } from "./product";
 import "./shop.css";
