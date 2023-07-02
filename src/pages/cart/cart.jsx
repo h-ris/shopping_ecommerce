@@ -33,7 +33,7 @@ export const Cart = () => {
             if (cartItems[product.id] >0 ){
                 return <CartItem data={product} />
             }
-            return null;
+            return navigate("/");
         })}
         </div>
 
